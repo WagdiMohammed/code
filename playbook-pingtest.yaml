@@ -1,0 +1,12 @@
+-
+  name: Test Connectivity
+  hosts: all
+  tasks:
+    - name: ping Test
+      ping:
+-
+  name: Test Date
+  hosts: all
+  tasks:
+    - name: Test Date
+      command: date
